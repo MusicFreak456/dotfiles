@@ -224,10 +224,13 @@ bar {
 	font pango: Droid Sans Mono 11
 	i3bar_command i3bar --transparency
 	tray_output none
-        status_command /sbin/bumblebee-status -m disk:root cpu \
-		memory date time dunst \
-		-p root.path=/ disk.format="{used} ({percent:05.02f}%)" time.format="%H:%M" \
-		date.format="%a, %b %d %Y" memory.format="{used} ({percent:05.02f}%)" \
+        status_command /sbin/bumblebee-status \
+		-m disk:root cpu memory date time dunst \
+		-p root.path=/ \
+		disk.format="{percent:05.02f}%" \
+		time.format="%H:%M" \
+		date.format="%a, %b %d %Y" \
+		memory.format="{used}" \
 		cpu.interval=3s memory.interval=3s \
 		-t moonlight-powerline
         colors {
