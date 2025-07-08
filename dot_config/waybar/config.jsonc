@@ -5,7 +5,7 @@
     "spacing": 0,
     "modules-left": ["custom/arch", "wlr/taskbar"],
     "modules-center": ["clock"],
-    "modules-right": ["pulseaudio", "cpu", "memory"],
+    "modules-right": ["tray", "pulseaudio", "cpu", "memory"],
     "custom/logout": {
         "format": "⏻",
         "tooltip": false,
