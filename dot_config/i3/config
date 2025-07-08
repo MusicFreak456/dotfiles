@@ -223,7 +223,6 @@ client.urgent           $u-bgcolor      $u-bgcolor      $text           $u-bgcol
 bar {
 	font pango: Droid Sans Mono 11
 	i3bar_command i3bar --transparency
-	tray_output none
         status_command /sbin/bumblebee-status \
 		-m disk:root cpu memory date time dunst \
 		-p root.path=/ \
