@@ -94,9 +94,11 @@ button:hover {
 #scratchpad,
 #custom-arch,
 #mpd {
-    padding: 0 5px 0 5px;
+    padding: 0 8px 0 8px;
     color: #f0f0ff;
     background-color: transparent;
+    font-weight: bold;
+    margin: 0;
 }
 
 #window,
@@ -123,12 +125,11 @@ label:focus {
 }
 
 #cpu {
-    padding: 0 5px 0 5px;
-    margin-left: 4px;
+    padding: 0 8px 0 8px;
 }
 
 #memory {
-    padding: 0 10px 0 5px;
+    padding: 0 15px 0 8px;
 }
 
 #disk {
