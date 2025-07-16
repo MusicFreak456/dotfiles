@@ -577,3 +577,8 @@ environment {
 hotkey-overlay {
     skip-at-startup
 }
+
+// Fix screencast flickers
+debug {
+    wait-for-frame-completion-in-pipewire
+}
