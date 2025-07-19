@@ -72,28 +72,17 @@ button:hover {
     background-color: #eb4d4b;
 }
 
-#mode {
-    background-color: #64727D;
-    border-bottom: 3px solid #ffffff;
-}
-
 #clock,
 #battery,
 #cpu,
 #memory,
 #disk,
 #temperature,
-#backlight,
 #network,
 #pulseaudio,
-#wireplumber,
-#custom-media,
 #tray,
-#mode,
-#idle_inhibitor,
-#scratchpad,
 #custom-arch,
-#mpd {
+#custom-notification {
     padding: 0 8px 0 8px;
     color: #f0f0ff;
     background-color: transparent;
@@ -128,8 +117,12 @@ label:focus {
     padding: 0 8px 0 8px;
 }
 
-#memory {
-    padding: 0 15px 0 8px;
+#custom-notification {
+    padding: 0 10px 0 8px;
+}
+
+#custom-notification:hover {
+    background-color: rgba(49, 50, 68, 0.6);
 }
 
 #disk {
@@ -160,15 +153,6 @@ label:focus {
 
 #pulseaudio:hover {
     background-color: rgba(49, 50, 68, 0.6);
-}
-
-#wireplumber {
-    background-color: #fff0f5;
-    color: #000000;
-}
-
-#wireplumber.muted {
-    background-color: #f53c3c;
 }
 
 #custom-media {
@@ -215,23 +199,6 @@ label:focus {
     color: #2d3436;
 }
 
-#mpd {
-    background-color: #66cc99;
-    color: #2a5c45;
-}
-
-#mpd.disconnected {
-    background-color: #f53c3c;
-}
-
-#mpd.stopped {
-    background-color: #90b1b1;
-}
-
-#mpd.paused {
-    background-color: #51a37a;
-}
-
 #language {
     background: #00b093;
     color: #740864;
@@ -254,14 +221,6 @@ label:focus {
 
 #keyboard-state > label.locked {
     background: rgba(0, 0, 0, 0.2);
-}
-
-#scratchpad {
-    background: rgba(0, 0, 0, 0.2);
-}
-
-#scratchpad.empty {
-	background-color: transparent;
 }
 
 #custom-arch {
