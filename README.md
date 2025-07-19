@@ -14,6 +14,10 @@ Set theme of xdg-desktop-portal-gnome with:
 dconf write /org/gnome/desktop/interface/color-scheme '"prefer-dark"'
 ```
 
+## Screenshot
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d6489119-9f87-4b48-9d6f-2cd09ab626c3" />
+
 ## Systemd setup
 
 Execute the following:
