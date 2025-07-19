@@ -3,7 +3,7 @@
 Use `chezmoi` to apply the configs.
 
 Needed software: `niri` `waybar` `swaybg` `swaync` `fuzzel` `blueman` `pavucontrol`.
-Optionally: `xdg-desktop-portal-gnome`.
+Optionally: `kitty` `xdg-desktop-portal-gnome`.
 
 Needed fonts: `ttf-fira-code` `ttf-cantarell` `otf-font-awesome`.
 
