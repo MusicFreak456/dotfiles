@@ -569,11 +569,13 @@ binds {
     Mod+Shift+P { power-off-monitors; }
 }
 
+// Set environment variables for xwayland-satellite
 environment {
     ELECTRON_OZONE_PLATFORM_HINT "auto"
     DISPLAY ":0"
 }
 
+// Disable the hotkey overview at the start
 hotkey-overlay {
     skip-at-startup
 }
@@ -581,4 +583,10 @@ hotkey-overlay {
 // Fix screencast flickers
 debug {
     wait-for-frame-completion-in-pipewire
+}
+
+// Custom ligth cursor theme
+cursor {
+    xcursor-theme "phinger-cursors-light"
+    hide-when-typing
 }

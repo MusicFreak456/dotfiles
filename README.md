@@ -5,6 +5,8 @@ Use `chezmoi` to apply the configs.
 Needed software: `niri` `waybar` `swaybg` `swaync` `fuzzel` `blueman` `pavucontrol`.
 Optionally: `kitty` `xdg-desktop-portal-gnome`.
 
+Needed cursor: `phinger-cursors`.
+
 Needed fonts: `ttf-fira-code` `ttf-cantarell` `otf-font-awesome`.
 
 Set theme to Adwaita Dark using `lxappearance`.
