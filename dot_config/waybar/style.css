@@ -1,5 +1,4 @@
 * {
-    /* `otf-font-awesome` is required to be installed for icons */
     font-family: Cantarell, 'FiraCode Nerd Font', 'Font Awesome 6 Free';
     font-size: 14px;
     font-feature-settings: "tnum";
@@ -8,22 +7,11 @@
 window#waybar {
     background-color: rgba(30, 30, 46, 0.4);
     color: #ffffff;
-    /* transition-property: background-color; */
-    /* transition-duration: .5s; */
 }
 
 window#waybar.hidden {
     opacity: 0.2;
 }
-
-/*
-window#waybar.empty {
-    background-color: transparent;
-}
-window#waybar.solo {
-    background-color: #FFFFFF;
-}
-*/
 
 window#waybar.termite {
     background-color: #3F3F3F;
@@ -73,7 +61,6 @@ button:hover {
 }
 
 #clock,
-#battery,
 #cpu,
 #memory,
 #disk,
@@ -125,10 +112,6 @@ label:focus {
     background-color: rgba(49, 50, 68, 0.6);
 }
 
-#disk {
-    background-color: #964B00;
-}
-
 #taskbar button {
     color: #f0f0ff;
     background-color: rgba(30, 30, 46, 0.3);
@@ -144,11 +127,6 @@ label:focus {
 
 #taskbar button.active:hover {
     background-color: rgba(108, 112, 134, 0.6);
-}
-
-#pulseaudio {
-    /* background-color: #f1c40f; */
-    /* color: #000000; */
 }
 
 #pulseaudio:hover {
@@ -177,10 +155,6 @@ label:focus {
     background-color: #eb4d4b;
 }
 
-#tray {
-    /* background-color: #2980b9; */
-}
-
 #tray > .passive {
     -gtk-icon-effect: dim;
 }
@@ -205,22 +179,6 @@ label:focus {
     padding: 0 5px;
     margin: 0 5px;
     min-width: 16px;
-}
-
-#keyboard-state {
-    background: #97e1ad;
-    color: #000000;
-    padding: 0 0px;
-    margin: 0 5px;
-    min-width: 16px;
-}
-
-#keyboard-state > label {
-    padding: 0 5px;
-}
-
-#keyboard-state > label.locked {
-    background: rgba(0, 0, 0, 0.2);
 }
 
 #custom-arch {
