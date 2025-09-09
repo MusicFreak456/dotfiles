@@ -235,8 +235,7 @@ layout {
 // which may be more convenient to use.
 // See the binds section below for more spawn examples.
 
-// Add support for running X11 apps
-spawn-at-startup "xwayland-satellite"
+// spawn-at-startup "xwayland-satellite"
 
 // Uncomment this line to ask the clients to omit their client-side decorations if possible.
 // If the client will specifically ask for CSD, the request will be honored.
@@ -330,6 +329,7 @@ binds {
     Mod+Return hotkey-overlay-title="Open a Terminal: kitty" { spawn "kitty"; }
     Mod+D hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
     Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
+    Alt+Tab { spawn "niri-switch"; }
 
     // You can also use a shell. Do this if you need pipes, multiple commands, etc.
     // Note: the entire command goes as a single argument in the end.
@@ -570,19 +570,11 @@ binds {
 }
 
 // Set environment variables for xwayland-satellite
-environment {
-    ELECTRON_OZONE_PLATFORM_HINT "auto"
-    DISPLAY ":0"
-}
+environment {}
 
 // Disable the hotkey overview at the start
 hotkey-overlay {
     skip-at-startup
-}
-
-// Fix screencast flickers
-debug {
-    wait-for-frame-completion-in-pipewire
 }
 
 // Custom ligth cursor theme
