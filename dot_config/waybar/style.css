@@ -1,11 +1,11 @@
 * {
     font-family: Cantarell, 'FiraCode Nerd Font', 'Font Awesome 6 Free';
-    font-size: 14px;
+    font-size: 13px;
     font-feature-settings: "tnum";
 }
 
 window#waybar {
-    background-color: rgba(30, 30, 46, 0.4);
+    background-color: rgba(30, 30, 30, 1);
     color: #ffffff;
 }
 
@@ -75,6 +75,10 @@ button:hover {
     background-color: transparent;
     font-weight: bold;
     margin: 0;
+}
+
+#clock {
+    color: #efefef
 }
 
 #window,
@@ -184,7 +188,6 @@ label:focus {
 #custom-arch {
     font-size: 19px;
     padding: 0 15px 0 10px;
-    color: #1793d1;
 }
 
 #custom-arch:hover {

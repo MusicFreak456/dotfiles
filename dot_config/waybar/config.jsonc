@@ -1,7 +1,7 @@
 {
     "layer": "top", // Waybar at top layer
     "position": "bottom",
-    "height": 32,
+    "height": 28,
     "spacing": 0,
     "modules-left": ["custom/arch", "wlr/taskbar"],
     "modules-center": ["clock"],
